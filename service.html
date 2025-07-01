@@ -5,7 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zara Therapy - service</title>
+ <!-- Link to Animate.css -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ <!-- Link to Wow.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+     <!--
+         swiper-js
+     -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Rest N Rehab - services</title>
   <meta name="title" content="Doclab - home">
   <meta name="description" content="This is a medical html template made by muhammad Zahid">
 
@@ -82,23 +93,17 @@
             <a href="aboutus.html" class="navbar-link title-md">About Us</a>
           </li>   
 
+       
           <li class="navbar-item">
             <a href="service.html" class="navbar-link title-md">Services</a>
           </li>
-          <li class="navbar-item">
-            <a href="product.html" class="navbar-link title-md">Product</a>
-          </li>
 
-          <li class="navbar-item">
-            <a href="doctors.html" class="navbar-link title-md">Doctors</a>
-          </li>
+        
 
           <li class="navbar-item">
             <a href="conntact.html" class="navbar-link title-md">Contact Us</a>
           </li>
-          <li class="navbar-item">
-            <a href="appointment.html" class="navbar-link title-md" style="background-color: hsl(182, 100%, 35%); border-radius: 6px;">Get Appointment</a>
-          </li>
+         
         </ul>
 
         <ul class="social-list">
@@ -148,338 +153,1503 @@
 
 
 
+
   <main>
     <article>
 
       <!-- 
         - #HERO
       -->
-      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="services">
-        <div class="container">
-          <div class="hero-content">
-            <p class="hero-subtitle has-before" data-reveal="left">Explore Our Services</p>
-            <h1 class="headline-lg hero-title" data-reveal="left">
-              Discover Range of Services.
-            </h1>
-            <div class="hero-card" data-reveal="left">
-              <p class="title-lg card-text">
-                Browse through our diverse range of therapeutic services, tailored to meet your needs.
-              </p>
-              <div class="wrapper">
-                <div class="input-wrapper title-lg">
-                  <input type="text" name="service" placeholder="Search Services" class="input-field">
-                  <ion-icon name="search"></ion-icon>
-                </div>
-                <button class="btn has-before">
-                  <ion-icon name="filter"></ion-icon>
-                  <span class="span title-md">Filter</span>
-                </button>
+
+   <!-- Services Page Intro Section -->
+<section class="section hero" style="background-image: url('./assets/images/hero-bg.png');" aria-label="services-intro">
+  <div class="container">
+
+    <div class="hero-content">
+
+      <p class="hero-subtitle has-before" data-reveal="left">Welcome to Rest N Rehab</p>
+
+      <h1 class="headline-lg hero-title" data-reveal="left">
+        Comprehensive Healing for Body, Mind & Soul
+      </h1>
+
+      <div class="hero-card" data-reveal="left">
+        <p class="title-lg card-text">
+          At Rest N Rehab, we believe in restoring wellness through personalized care and holistic practices. Whether you're recovering, managing a condition, or simply prioritizing your mental and physical well-being — you're in the right place.
+        </p>
+
+        <p class="title-lg card-text">
+          Explore a wide spectrum of therapeutic services that cater to every aspect of your health journey.
+        </p>
+      </div>
+
+    </div>
+
+    <figure class="hero-banner" data-reveal="right">
+      <img src="./assets/images/services.jpg" width="590" height="517" loading="eager" alt="relaxation therapy banner" class="w-100" style="margin-bottom: 200px;">
+    </figure>
+
+  </div>
+</section>
+
+      <!-- product -->
+      <section class="Products">
+        <h1 class="heading  wow animate__animated animate__fadeInRight">Our Services</h1>
+        <div class="all-products">
+          <a href="#cardiorespiratory" class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product1.webp" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Cardiorespiratory</h4>
+              <div class="service-description">
+              <p>Breathing problems</p>
+              <p>Asthama </p>
+              <p>Post cardiac surgery </p>
+              <p>COPD</p>
+              </div>
+             </div>
+          </a>
+          <a href="#musculoskeletal"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product2.webp" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Musculoskeletal</h4>
+                 <div class="service-description">
+              <p >Shoulder pain</p>
+              <p>Knee pain</p>
+              <p>Elbow pain</p>
+              <p>Back pain</p>
+              <p>Wrist pain</p>
+              <p>Ankle pain</p>
+              </div>
+              
+            </div>
+          </a>
+          <a href="#spine"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product3.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Spine</h4>
+               <div class="service-description">
+              <p>Cervical Spondylosis</p>
+              <p>Lumbar Spondylosis</p>
+              <p>Spondylitis</p>
+              <p>Spondylisthesis</p>
+              <p>Ankylosis Spondylitis</p>
+              <p>Sciatica</p>
+              <p>Disc bulge</p>
+               <p>Scoliosis</p>
+                <p>Kyphosis/Lordosis</p>
+              </div>
+             
+            </div>
+          </a>
+          <a href="#pediatric"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product4.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Neuro (pediatric)</h4>
+              <div class="service-description">
+              <p >Global developmental delay</p>
+              <p>Cerebral palsy</p>
+              <p>Muscular dystrophy</p>
+              <p>Autism</p>
+              <p>ADHD</p>
+              
+              </div>
+              
+            </div>
+          </a>
+          <a href="#women"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product5.webp" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title" >Women's Personal Health</h4>
+              <div class="service-description" id="card">
+              <p>Pcod/pcos</p>
+              <p>Hysterectomy</p>
+              <p>Previous pelvic surgery</p>
+              <p>Uterine prolapse</p>
+              <p>Post pregnancy weight gain</p>
+              <p>Post pregnancy low back pain</p>
+              <p>Diastasis rection</p>
+               <p>Constipation</p>
+                <p>Urinary /bowel incontinence</p>
+              </div>
+             
+            </div>
+          </a>
+          <a href="#cancer"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product6.avif" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Cancer</h4>
+               <div class="service-description">
+              <p >Post cancer surgery.</p>
+              <p>Post Chemo therapy</p>
+              <p>Lymphedema</p>
+              <p>Post radio therapy</p>
+              <p>Post Breast cancer</p>
+               <p>Surgery/chemo</p>
+              </div>
+              
+            </div>
+          </a>
+          <a href="#postsurgery"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product7.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Post surgery </h4>
+             <div class="service-description">
+              <p >Total knee replacement</p>
+              <p>Total hip replacement</p>
+              <p>Ligament injury/ reconstruction</p>
+              <p>Post fracture implants</p>
+              <p>Meniscus injury</p>
+               <p>Post fracture rehabilitation</p>
               </div>
             </div>
-          </div>
-          <figure class="hero-banner" data-reveal="right">
-            <img src="./assets/images/services.avif" width="519" height="517" loading="eager" alt="hero banner" style="width: 600px; height: 500px;">
-          </figure>
+          </a>
+          <a href="#eye"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product8.webp" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Eye </h4>
+               <div class="service-description">
+              <p >Strabismust</p>
+              <p>Diplopia</p>
+              <p>Amblyopia(lazy eye) </p>
+              <p>Digital eye strain</p>
+              <p>Eye strengthening before surgery</p>
+               <p>Squint eye</p>
+                <p>Convergence insufficiency</p>
+              </div>
+            </div>
+          </a>
+          <a href="#adults"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product9.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Neuro (adults)</h4>
+              <div class="service-description">
+              <p>Stroke/Paralysis - Quadri,hemi,mono</p>
+              <p>Balance and mobility issues </p>
+              <p>Brain and spinal cord injury </p>
+              <p>Multiple sclerosis </p>
+              <p>Parkinson's disease </p>
+              <p>Cerebral palsy</p>
+              <p>Guillain Barre Syndrome</p>
+               <p>Ataxia</p>
+                <p>Brachial Plexus Injury</p>
+                 <p>Foot drop and Wrist drop</p>
+                  <p>Bell's palsy</p>
+              </div>
+             
+            </div>
+          </a>
+          <a href="#mental"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product10.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Mental wellness </h4>
+              <div class="service-description">
+              <p>Anxiety </p>
+              <p>Depression </p>
+              <p>Mood swings/irritability </p>
+              <p>Insomnia </p>
+              <p>Personality disorders</p>
+              <p>Attention</p>
+              <p>Deficit/hyperactivity disorder(ADHD)</p>
+               <p>Autism spectrum disorder (ASD)</p>
+             
+              </div>
+            </div>
+          </a>
+
+           <a href="#speech"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product11.webp" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Speech</h4>
+              <div class="service-description">
+              <p>Speech Disorders</p>
+              <p>Learning Disability </p>
+              <p>Down Syndrome / Autism</p>
+              <p>Speech Difficulty in Stroke</p>
+              
+              </div>
+            </div>
+          </a>
+
+          
+           <a href="#dietition"  class="product  wow animate__animated animate__fadeInUp">
+            <img src="./assets/images/product12.jpg" alt="Product 1">
+            <div class="service-details">
+              <h4 class="service-title">Dietitian/ Nutrients</h4>
+              <div class="service-description">
+              <p>Metabolic disorder</p>
+              <p>Digestive issues</p>
+              <p>Weight management</p>
+              <p>Cancer/Hiv related</p>
+               <p>Pregnancy nutrition</p>
+                <p>PCOD/PCOS</p>
+                 <p>Diabetes</p>
+                  <p>Blood pressure</p>
+              
+              </div>
+            </div>
+          </a>
         </div>
+
+
+  
       </section>
       
+<!-- Cardiorespiratory Service Section -->
+<section class="cardiorespiratory-section" id="cardiorespiratory">
+  <div class="container">
+
+  <!-- Top Info Card -->
+<h2 class="cardio-heading">Cardiorespiratory Care</h2>
+
+<div class="cardio-intro">
+  <div class="cardio-text">
+    <p>
+      Cardiorespiratory fitness measures how efficiently your heart and lungs supply oxygen during physical activity.
+      It's key to boosting your endurance, reducing stress, and lowering the risk of chronic diseases.
+    </p>
+    <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+  </div>
+
+  <div class="cardio-image">
+    <img src="/rest-n-rehab/assets/images/respiratory.jpg" alt="Healthy Heart & Lungs">
+  </div>
+</div>
+
+
+    
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+        “Your lungs and heart are your engine. Care for them like you care for your life — because they are your life.”
+      </blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Breathing problems</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>This is a general term for any difficulty inhaling or exhaling air. It can range from mild shortness of breath to severe respiratory distress. There are many causes, including infections, allergies, lung diseases, and heart problems.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Asthma</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A chronic (long-term) lung disease that inflames and narrows the airways. This makes breathing difficult, especially during exercise or exposure to triggers like allergens or irritants. Symptoms include wheezing, coughing, chest tightness, and shortness of breath. Asthma is treatable, but not curable.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Post cardiac surgery</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>This refers to the recovery period after heart surgery. During this time, you may experience some breathing difficulties due to pain, fluid buildup around the lungs (pleural effusion), or changes in lung function caused by the surgery itself. Medications, breathing exercises, and physical therapy can help manage these issues.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">COPD (Chronic Obstructive Pulmonary Disease)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A group of lung diseases that obstruct airflow and make breathing difficult. The most common types are emphysema and chronic bronchitis. COPD is often caused by smoking and there is no cure, but treatments can help manage symptoms and improve quality of life. These treatments include medications, breathing exercises, and pulmonary rehabilitation.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</section>
+
+
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      entry.target.classList.toggle("visible", entry.isIntersecting);
+    });
+  });
+
+  document.querySelectorAll('.help-card').forEach(card => {
+    observer.observe(card);
+  });
+</script>
+
+<!--MASCULOSKELETAL-->
+<section class="cardiorespiratory-section" id="musculoskeletal">
+  <div class="container">
+
+    <h2 class="cardio-heading">Musculoskeletal</h2>
+    <!-- Top Info Card -->
+    <div class="cardio-intro">
+      <div class="cardio-text">
+        
+        <p>
+          Your Body in Motion: Understanding the Musculoskeletal System The musculoskeletal system is a complex network of bones, muscles, tendons, ligaments, and joints that 1 work together to provide structure, support, and movement to your body. This website is your comprehensive guide to understanding the anatomy, function, and common conditions of the musculoskeletal system.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/shoulder-pain.webp" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+  
+
+   
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+       “Your bones and muscles are the framework of your life. Strengthen them today, so they support you tomorrow.”
+      </blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Shoulder Pain</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Causes: Rotator cuff injuries, bursitis, arthritis, impingement syndrome, muscle strains, and referred pain from neck problems.
+
+Symptoms: Pain, tenderness, weakness, limited range of motion, and difficulty sleeping on the affected side.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Knee Pain</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Causes: Arthritis, meniscus tears, ligament sprains, overuse injuries, bursitis, and referred pain from hip or back problems.
+
+Symptoms: Pain, swelling, stiffness, instability, clicking or popping sounds, and difficulty bending or straightening the knee.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Elbow Pain</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Causes: Tennis elbow (lateral epicondylitis), golfer's elbow (medial epicondylitis), bursitis, arthritis, and overuse injuries.
+
+Symptoms: Pain, tenderness, weakness, difficulty gripping or lifting objects, and pain radiating down the forearm.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Back Pain</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Causes: Muscle strains, disc herniation, arthritis, poor posture, and referred pain from other areas like the hips or pelvis.
+
+Symptoms: Pain, stiffness, muscle spasms, difficulty moving, and pain radiating down the legs (sciatica).</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Wrist Pain</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Causes: Carpal tunnel syndrome, arthritis, tendonitis, sprains, and fractures.
+
+Symptoms: Pain, numbness, tingling, weakness, and difficulty gripping or making a fist.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Ankle Pain</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Causes: Sprains, strains, fractures, arthritis, tendonitis, and Achilles tendon problems.
+
+Symptoms: Pain, swelling, bruising, difficulty walking or bearing weight, and instability.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</section>
+
+
       
 
+<!--neuro(pediatric)-->
+<section class="cardiorespiratory-section" id="pediatric">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Neuro(Pediatric)</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        At Neuro (Pediatric), we're dedicated to providing exceptional care for children with neurological conditions. Our team of experienced pediatric neurologists is committed to diagnosing and treating a wide range of neurological disorders.
+
+We offer a compassionate and child-centered approach, combining advanced medical expertise with a focus on family support. Our goal is to help children reach their full potential.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/neuro.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+      “Every child’s potential is unique. Nurture their mind and movement early, and you empower a lifetime of possibility.”
+      </blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Global Developmental Delay (GDD)</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Global developmental delay (GDD) is a term used when a child shows delays in two or more areas of development. GDD can be caused by a variety of factors, including genetic conditions, brain injuries, infections, and developmental disorders. Early diagnosis and intervention are important for improving a child's development and quality of life.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Cerebral Palsy (CP)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Cerebral palsy (CP) is a group of disorders that affect movement and posture. It is caused by damage to the developing brain, most often before birth.
+
+There is no cure for CP, but early intervention and therapy can help children with CP reach their full potential.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Muscular Dystrophy (MD)</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Muscular dystrophy (MD) is a group of genetic disorders that cause progressive weakness and breakdown of skeletal muscles over time. There are many different types of MD, each with its own pattern of muscle weakness and progression.
+
+There is no cure for MD, but treatments can help manage symptoms and slow the progression of the disease</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Autism Spectrum Disorder (ASD)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Autism spectrum disorder (ASD) is a complex developmental condition that affects how people interact with others, communicate, learn, and behave. People with ASD may have difficulty with social interaction, communication, and repetitive behaviors. Symptoms of ASD can vary widely</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Attention-Deficit/Hyperactivity Disorder (ADHD)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder characterized by persistent patterns of inattention, hyperactivity, and impulsivity. Symptoms of ADHD can vary widely.
+
+ADHD can be diagnosed and treated by a mental health professional. Treatment may include medication, therapy, and behavioral interventions.</p>
+    </div>
+  </div>
+
+  
+</div>
+</div>
+
+</section>
+
+
+
+<!--spine-->
+<section class="cardiorespiratory-section" id="spine">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Spine</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        The spine, also known as the vertebral column, is a series of connected bones (vertebrae) running from the base of the skull to the tailbone, providing essential support for the body while protecting the spinal cord within its bony canal. It is divided into distinct regions including the cervical spine (neck), thoracic spine (mid-back), and lumbar spine (lower back), each contributing to a range of motion depending on the structure of its vertebrae and joints.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/spine.webp" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+     “Spinal wellness is the backbone of overall well-being.”
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Cervical Spondylosis</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>What it is: A general term for age-related changes in the cervical spine (neck). The discs between the vertebrae degenerate, leading to bone spurs and narrowing of the spinal canal.
+
+Symptoms: Neck pain and stiffness, headaches, numbness or tingling in the arms or hands, muscle weakness, and difficulty walking.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Lumbar Spondylosis</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: Similar to cervical spondylosis, but affects the lumbar spine (lower back).
+
+Symptoms: Lower back pain, stiffness, numbness or tingling in the legs or feet, and muscle weakness.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Spondylitis</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>What it is: An umbrella term for inflammatory conditions affecting the spine.
+
+Types: Ankylosing spondylitis is a type of spondylitis that causes inflammation of the spine and sacroiliac joints.
+
+Symptoms: Back pain, stiffness, fatigue, and difficulty moving.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Spondylisthesis</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: Occurs when one vertebra slips forward onto the vertebra below it.
+
+Symptoms: Back pain, numbness or tingling in the legs or feet, and muscle weakness.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Ankylosing Spondylitis</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: A type of inflammatory arthritis that primarily affects the spine and sacroiliac joints.
+
+Symptoms: Back pain and stiffness, especially in the morning, fatigue, and difficulty moving.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Sciatica</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: Pain that radiates down the leg due to compression of the sciatic nerve.
+
+Causes: Often caused by a herniated disc or spinal stenosis.
+
+Symptoms: Pain, numbness, tingling, and weakness in the leg or foot.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="title">Disc Bulge</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: Occurs when the outer layer of a spinal disc weakens and bulges outward, potentially compressing nerves.
+
+Symptoms: Back pain, numbness or tingling, and muscle weakness.</p>
+    </div>
+  </div>
+
+ <div class="card">
+    <div class="title">Scoliosis</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: A sideways curvature of the spine.
+
+Symptoms: Uneven shoulders or hips, back pain, and difficulty breathing in severe cases.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Kyphosis/Lordosis</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>What it is: Kyphosis is an excessive forward curvature of the spine (hunchback), while lordosis is an excessive inward curvature (swayback).
+
+Symptoms: Back pain, difficulty breathing, and postural problems.
+
+</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+
+<section class="cardiorespiratory-section" id="women">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Women's Personal Health</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Empower your health journey with personalized insights and expert advice. Our website is your go-to resource for understanding and managing women's unique health needs. From menstrual cycles to menopause, pregnancy to postpartum, we cover it all. Discover practical tips, track your health, and connect with a supportive community. Take control of your well-being, one step at a time.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/women.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+    “Every woman’s journey is unique. So is our care.”
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">PCOD/PCOS:</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Polycystic Ovary Syndrome (PCOS) is a hormonal disorder affecting women of reproductive age. It's characterized by irregular periods, excessive hair growth, acne, and weight gain. PCOS can lead to infertility, type 2 diabetes, and heart disease.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Hysterectomy:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This is a surgical procedure to remove the uterus. It's often performed to treat conditions like heavy menstrual bleeding, uterine fibroids, endometriosis, and uterine cancer.  </p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Previous Pelvic Surgery:</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>This refers to any prior surgical procedure performed on the pelvic region, which includes the uterus, ovaries, fallopian tubes, and bladder. Such surgeries can lead to complications like scarring, adhesion formation, and chronic pelvic pain.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Uterine Prolapse:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This occurs when the uterus slips down from its normal position in the pelvis. It can cause symptoms like pelvic pressure, urinary or bowel problems, and discomfort during sexual intercourse.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Post-Pregnancy Weight Gain:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Weight gain after pregnancy is common. However, excessive weight gain can lead to various health issues, including obesity, diabetes, and heart disease.  </p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Post-Pregnancy Low Back Pain:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Hormonal changes, weakened core muscles, and the physical stress of pregnancy and childbirth can contribute to low back pain.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="title">Diastasis Recti:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This condition occurs when the two muscles that run down the front of your abdomen separate. It's often caused by pregnancy and can lead to a bulging belly, lower back pain, and digestive issues.</p>
+    </div>
+  </div>
+
+ <div class="card">
+    <div class="title">Constipation:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This is a common digestive problem characterized by infrequent or difficult bowel movements. It can be exacerbated by hormonal changes, dietary factors, and lack of physical activity.
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Urinary/Bowel Incontinence:</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This refers to the involuntary leakage of urine or stool. It can be caused by various factors, including weakened pelvic floor muscles, nerve damage, and certain medical conditions.  
+</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+</section>
+
+<section class="cardiorespiratory-section" id="cancer">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Cancer</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. These cells can invade 1 and destroy healthy tissues, potentially spreading to other parts of the body. While various factors can contribute to cancer development, including genetics and lifestyle choices, early detection and treatment are crucial for improving outcomes.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/cancer.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+    ““Let your faith be bigger than your fear.””
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Post Cancer Surgery</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>This refers to the period following a surgical procedure to remove cancerous tissue. Recovery can involve pain management, wound care, and physical therapy. Potential long-term effects may include scarring, nerve damage, and lymphedema.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Post Chemo Therapy</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>The time after chemotherapy treatment, often marked by fatigue, hair loss, and weakened immune system. Side effects can vary widely and may persist for months or even years. Regular check-ups are essential to monitor for delayed effects.  </p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Lymphedema</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>A chronic condition that occurs when lymph fluid builds up in tissues, often in the arms or legs. It can cause swelling, pain, and discomfort. Lymphedema frequently develops after cancer treatment, especially surgery or radiation therapy that damages lymph nodes.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Post Radio Therapy</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>The period following radiation therapy, a cancer treatment that uses high-energy rays to kill cancer cells. Common side effects include skin irritation, fatigue, and hair loss. Long-term effects may include scarring, damage to internal organs, and secondary cancers.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Post Breast Cancer</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>The time after a breast cancer diagnosis and treatment. It may involve physical and emotional challenges, including body image issues, fertility concerns, and increased risk of other health problems. Regular check-ups and screenings are crucial for early detection of recurrence.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Surgery/Chemo</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A common cancer treatment approach combining surgery to remove cancerous tissue followed by chemotherapy to eliminate any remaining cancer cells. This combined therapy can improve overall survival rates but may increase the risk of side effects.</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+
+<section class="cardiorespiratory-section" id="postsurgery">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Post surgery</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Your journey to recovery starts here. Our website offers comprehensive information and expert advice to help you navigate the post-surgery healing process. From essential tips to personalized care plans, we're committed to empowering you to heal faster and stronger. Discover valuable insights, connect with a supportive community, and take control of your recovery.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/postsurgery.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+  “You’re not starting over—you’re starting again, stronger and wiser than before.”
+
+
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Total Knee Replacement</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Total knee replacement surgery is a surgical procedure to replace a damaged knee joint with an artificial one. This is often done to relieve pain and improve function in individuals with severe arthritis or other knee joint conditions. The procedure involves removing damaged cartilage and bone and replacing them with artificial components.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Total Hip Replacement</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Total hip replacement surgery is a surgical procedure to replace a damaged hip joint with an artificial one. This is commonly done to relieve pain and improve mobility in individuals with severe hip arthritis or other hip joint conditions. The procedure involves removing damaged cartilage and bone in the hip joint and replacing them with artificial components. </p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Ligament Injury/Reconstruction</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Ligament injuries can occur in various joints, such as the knee, ankle, or elbow. These injuries can range from mild sprains to complete tears. Ligament reconstruction surgery is a surgical procedure to repair a torn ligament using tissue grafts. This procedure aims to restore joint stability and function.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Post-Fracture Implants</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Post-fracture implants are devices used to stabilize broken bones during the healing process. These implants can include plates, screws, rods, or pins. They are surgically inserted into the bone to hold the broken pieces in place, promoting proper healing and preventing further damage
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Meniscus Injury</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>The meniscus is a cartilage disc in the knee joint that acts as a shock absorber. Meniscus injuries can occur due to trauma or degenerative changes. Treatment for meniscus injuries may include conservative measures like physical therapy or surgical intervention, such as meniscus repair or removal.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Post-Fracture Rehabilitation</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Post-fracture rehabilitation is a crucial part of the recovery process after a bone fracture. It involves a series of exercises and therapies designed to restore strength, flexibility, and range of motion to the injured limb. Physical therapy plays a key role in guiding patients through the rehabilitation process and helping them regain their pre-injury function.</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+
+
+<section class="cardiorespiratory-section" id="eye">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Eye</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Eyes, the windows to the soul, are complex organs that allow us to perceive the world around us. From the intricate structure of the cornea and lens to the delicate neural pathways that connect the eye to the brain, every component plays a vital role in vision. Whether it's the ability to see colors, distinguish shapes, or perceive depth, our eyes enable us to experience the beauty and complexity of the world.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/eye.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+ “Sight is not only what we see—it’s the strength to envision a better tomorrow.”
+
+
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Strabismus (Crossed Eyes)</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Strabismus occurs when the eyes don't align properly, causing one eye to turn inward, outward, upward, or downward. It can lead to double vision, poor depth perception, and eye strain. Treatment often involves eyeglasses, eye exercises, patching, or surgery.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Diplopia (Double Vision)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Diplopia is a condition where a person sees two images of a single object. It can result from various factors like weak eye muscles, refractive errors, cataracts, or neurological disorders. Treatment depends on the underlying cause and may include corrective lenses, prism glasses, or surgery.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Amblyopia (Lazy Eye)</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Amblyopia is a condition where one eye becomes weaker than the other due to poor vision development. It often affects children and can lead to permanent vision loss in the weaker eye if not treated early. Treatment typically involves patching the stronger eye to force the weaker eye to work harder.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Digital Eye Strain</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Digital eye strain is a common condition caused by prolonged use of digital devices. Symptoms include eye fatigue, headaches, blurred vision, dry eyes, and neck and shoulder pain. To reduce strain, it's important to take regular breaks, adjust screen brightness and contrast, and practice good posture.
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Eye Strengthening Before Surgery</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Eye strengthening exercises can be beneficial before certain eye surgeries, such as cataract surgery. These exercises can improve eye muscle strength and coordination, aiding in a smoother recovery and better post-operative vision.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Squint Eye</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A squint eye, or strabismus, is a condition where the eyes don't align properly. It can be caused by various factors and may require treatment to prevent vision problems.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Convergence Insufficiency</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Convergence insufficiency is a condition where the eyes have difficulty working together to focus on near objects. Symptoms include eye strain, headaches, and difficulty reading. Treatment may involve vision therapy, prism glasses, or surgery.</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
 
 
 
 
-      <!-- 
-        - #SERVICE
-      -->
+<section class="cardiorespiratory-section" id="adults">
+  <div class="container">
 
-      <section class="service" aria-label="service">
-        <div class="container">
-          <ul class="service-list">
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/message1.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Massage Therapy</a>
-                </h3>
-                <p class="card-text">
-                  Get relief from stress and tension with our professional massage therapy sessions.
-                </p>
-                <button class="btn-circle" aria-label="read more about massage therapy">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Physical Rehabilitation.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Physical Rehabilitation</a>
-                </h3>
-                <p class="card-text">
-                  Regain mobility and strength with our personalized physical rehabilitation programs.
-                </p>
-                <button class="btn-circle" aria-label="read more about physical rehabilitation">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Acupuncture.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Acupuncture</a>
-                </h3>
-                <p class="card-text">
-                  Experience holistic healing with our traditional acupuncture treatments.
-                </p>
-                <button class="btn-circle" aria-label="read more about acupuncture">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="service-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Aromatherapy.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <h3 class="headline-sm card-title">
-                  <a href="#">Aromatherapy</a>
-                </h3>
-                <p class="card-text">
-                  Indulge your senses and relax your mind with our soothing aromatherapy sessions.
-                </p>
-                <button class="btn-circle" aria-label="read more about aromatherapy">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Neuro (Adults)</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Neuro offers comprehensive adult neurology services, dedicated to diagnosing and treating a wide range of neurological conditions. Our experienced team utilizes advanced diagnostic techniques and personalized treatment plans to improve patient outcomes. From managing chronic conditions like migraine and epilepsy to addressing acute neurological emergencies, Neuro provides compassionate and expert care, empowering individuals to live their best lives.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/neuroadult.jpg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+ “Healing the mind is a quiet miracle—each day a new victory, no matter how small.”
 
 
-      <!-- 
-        - #LISTING
-      -->
+</blockquote>
+    </div>
 
-      <section class="section listing" aria-labelledby="listing-label">
-        <div class="container">
-          <ul class="grid-list">
-            <li>
-              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Therapists Directory</p>
-              <h2 class="headline-md" data-reveal="left">Explore Our Therapists</h2>
-            </li>
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/message1.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Massage Therapist</h3>
-                  <p class="card-text">Specializes in various massage techniques for relaxation and pain relief.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Physical Therapist.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Physical Therapist</h3>
-                  <p class="card-text">Expert in rehabilitation exercises and restoring mobility after injuries.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Acupuncture.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Acupuncturist</h3>
-                  <p class="card-text">Specializes in traditional Chinese medicine techniques for pain management and wellness.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Aromatherapy.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Aromatherapist</h3>
-                  <p class="card-text">Utilizes essential oils and aromatherapy techniques to promote relaxation and improve mood.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Holistic Therapist.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Holistic Therapist</h3>
-                  <p class="card-text">Employs holistic approach to wellness,integrating mind & body for comprehensive healing.</p>
-                </div>
-              </div>
-            </li>
-            
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-                <div class="card-icon">
-                  <img src="./assets/images/Chiropractor.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-                <div>
-                  <h3 class="headline-sm card-title">Chiropractor</h3>
-                  <p class="card-text">Specializes in spinal adjustments and manipulations to alleviate pain and improve mobility.</p>
-                </div>
-              </div>
-            </li>
-            
-          </ul>
-        </div>
-      </section>
+  </div>
 
 
-      
-        <!-- Our Doctors
-            -->
-            <div class="responsive-container-block outer-container">
-                <div class="responsive-container-block inner-container">
-                  <p class="text-blk section-head-text">
-                    Meet Our Experienced Therapists
-                  </p>
-                  <p class="text-blk section-subhead-text">
-                    Our team consists of highly skilled and compassionate therapists
-                  </p>
-                  <div class="responsive-container-block">
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                      <div class="team-card">
-                        <div class="img-wrapper">
-                          <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png">
-                        </div>
-                        <p class="text-blk name">
-                          Dr. Emily
-                        </p>
-                        <p class="text-blk position">
-                         Psychologist
-                        </p>
-                        <div class="social-media-links">
-                          <a href="http://www.twitter.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
-                          </a>
-                          <a href="http://www.facebook.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
-                          </a>
-                          <a href="http://www.instagram.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
-                          </a>
-                          <a href="http://www.gmail.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                      <div class="team-card">
-                        <div class="img-wrapper">
-                          <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png">
-                        </div>
-                        <p class="text-blk name">
-                          Maxwell Doe
-                        </p>
-                        <p class="text-blk position">
-                          Acupuncturist
-                        </p>
-                        <div class="social-media-links">
-                          <a href="http://www.twitter.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
-                          </a>
-                          <a href="http://www.facebook.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
-                          </a>
-                          <a href="http://www.instagram.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
-                          </a>
-                          <a href="http://www.gmail.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                      <div class="team-card">
-                        <div class="img-wrapper">
-                          <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png">
-                        </div>
-                        <p class="text-blk name">
-                          Dr. Rebecca
-                        </p>
-                        <p class="text-blk position">
-                          Therapist
-                        </p>
-                        <div class="social-media-links">
-                          <a href="http://www.twitter.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
-                          </a>
-                          <a href="http://www.facebook.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
-                          </a>
-                          <a href="http://www.instagram.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
-                          </a>
-                          <a href="http://www.gmail.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                      <div class="team-card">
-                        <div class="img-wrapper">
-                          <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png">
-                        </div>
-                        <p class="text-blk name">
-                          Dr. Jack
-                        </p>
-                        <p class="text-blk position">
-                          Chiropractor
-                        </p>
-                        <div class="social-media-links">
-                          <a href="http://www.twitter.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
-                          </a>
-                          <a href="http://www.facebook.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
-                          </a>
-                          <a href="http://www.instagram.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
-                          </a>
-                          <a href="http://www.gmail.com/" target="_blank">
-                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Stroke/Paralysis</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Stroke occurs when blood supply to the brain is interrupted, causing brain cells to die. Paralysis, the loss of muscle function or sensation, can result. Types include:  Quadriplegia, Hemiplegia, Monoplegia  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Balance and Mobility Issues</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>These problems affect a person's ability to move and maintain balance. They can be caused by various neurological conditions, injuries, or aging. Treatment often involves physical therapy and assistive devices.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Brain and Spinal Cord Injury</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Injuries to the brain or spinal cord can lead to a range of impairments, including paralysis, sensory loss, cognitive difficulties, and emotional changes. Treatment focuses on rehabilitation and managing symptoms.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Multiple Sclerosis (MS)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>MS is an autoimmune disease that affects the central nervous system. It causes damage to the myelin sheath, leading to problems with communication between the brain and the body. Symptoms can vary widely and include fatigue, weakness, numbness, and vision problems.
+
+
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Parkinson's Disease</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Parkinson's is a progressive neurological disorder that affects movement. It's caused by the death of dopamine-producing cells in the brain. Symptoms include tremors, stiffness, slowness of movement, and difficulty with balance and coordination</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Cerebral Palsy</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Cerebral palsy is a group of disorders that affect movement and posture. It's caused by damage to the developing brain, often before or during birth. Symptoms can vary widely and may include muscle weakness, spasticity, and difficulty with coordination.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Guillain-Barré Syndrome (GBS)</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>GBS is a rare disorder in which the body's immune system attacks the nerves. This can lead to muscle weakness, paralysis, and sensory loss. In most cases, GBS is temporary, and people recover fully.</p>
+    </div>
+  </div>
+
+  
+     <div class="card">
+    <div class="title">Ataxia</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Ataxia is a neurological disorder that affects balance and coordination. It can be caused by various conditions, including stroke, brain injury, and certain genetic disorders. Symptoms include clumsiness, difficulty walking, and problems with fine motor skills.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Brachial Plexus Injury</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>The brachial plexus is a network of nerves that supplies sensation and movement to the arm and hand. Injury to this network can cause weakness, numbness, and pain in the arm and hand</p>
+    </div>
+  </div>
+
+   <div class="card">
+    <div class="title">Foot Drop and Wrist Drop</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Foot drop and wrist drop are conditions in which the foot or wrist cannot be lifted properly. These conditions can be caused by nerve damage or muscle weakness.</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Bell's Palsy</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Bell's palsy is a condition that causes temporary weakness or paralysis of the muscles in the face. It's caused by damage to the facial nerve, which controls the muscles of the face.</p>
+    </div>
+  </div>
+  
+  
+</div>
+</div>
+
+</section>
+
+
+
+<section class="cardiorespiratory-section" id="mental">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Mental Wellness</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Welcome to your mental wellness haven! Here, you'll find a wealth of resources, expert advice, and community support to nurture your mental health. Discover practical self-care tips, learn about mental health conditions, find coping strategies, and connect with others who understand. Prioritize your mental well-being and embark on a journey towards a healthier, happier you.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/mental.webp" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+ “Your mind deserves the same care and attention as your body—treat it gently.”
+
+
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Anxiety</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>A feeling of worry, nervousness, or unease, often accompanied by physical symptoms like rapid heartbeat, sweating, or difficulty breathing. When anxiety becomes excessive and interferes with daily life, it may be classified as an anxiety disorder.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Depression</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A mood disorder characterized by persistent feelings of sadness, hopelessness, and worthlessness. Other symptoms include loss of interest in activities, changes in appetite and sleep patterns, fatigue, and difficulty concentrating.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Mood Swings/Irritability</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>These refer to rapid and extreme changes in mood, often involving periods of excessive happiness or anger. While occasional mood swings are normal, severe or frequent mood swings may indicate a mood disorder like bipolar disorder.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Insomnia</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Difficulty falling asleep, staying asleep, or waking up too early. It can be caused by various factors, including stress, medical conditions, and certain medications.
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Personality Disorders</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Mental health conditions that involve long-term patterns of thoughts, feelings, and behaviors that deviate significantly from cultural norms and expectations. They can impair a person's relationships, work, and ability to function in society.
+
+</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Attention Deficit/Hyperactivity Disorder</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A neurodevelopmental disorder characterized by persistent patterns of inattention, hyperactivity, and impulsivity. 1 It can interfere with a person's ability to focus, organize tasks, and control their behavior.
+
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Autism Spectrum Disorder</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>A developmental disorder that affects communication, social interaction, and behavior. People with ASD often have difficulty understanding social cues, engaging in back-and-forth conversations, and exhibiting repetitive behaviors.</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+
+<section class="cardiorespiratory-section" id="speech">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Speech</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+       Welcome to our website, your one-stop resource for all things speech! Whether you're a student looking to ace your next presentation, a professional aiming to refine your communication skills, or simply someone passionate about the art of public speaking, you've come to the right place. Here, you'll find a wealth of resources, including expert tips, engaging speeches, and interactive exercises to help you develop your confidence and eloquence. Join us on this journey of self-improvement and discover the power of your voice.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/speech.jpeg" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+ “You’re not learning to speak again. You’re learning to express your truth in new, powerful ways.”
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Speech Disorders:</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>These are conditions that affect a person's ability to produce sounds or use language effectively. They can manifest in various ways, such as difficulty pronouncing words, stuttering, or problems understanding or using language.  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Learning Disability</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>This refers to a neurological disorder that affects a person's ability to learn and process information. It can impact reading, writing, math, and other academic skills. Common learning disabilities include dyslexia, dysgraphia, and dyscalculia.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Down Syndrome / Autism</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Down syndrome is a genetic condition caused by an extra chromosome, leading to developmental delays and physical characteristics. Autism spectrum disorder is a neurodevelopmental condition characterized by challenges in social interaction, communication, and repetitive behaviors.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Speech Difficulty in Stroke</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Stroke, a brain injury caused by a disruption in blood flow, can lead to various speech difficulties. These may include slurred speech, difficulty finding words, or problems understanding language. The severity of speech impairment depends on the location and extent of brain damage
+</p>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+
+
+
+<section class="cardiorespiratory-section" id="dietition">
+  <div class="container">
+
+    <!-- Top Info Card -->
+       <h2 class="cardio-heading">Dietitian/ Nutrients</h2>
+    <div class="cardio-intro">
+      <div class="cardio-text">
+       
+        <p>
+        Empower your health with expert guidance and personalized nutrition plans. Our registered dietitians are committed to helping you achieve your wellness goals, whether you're looking to lose weight, gain muscle, manage a chronic condition, or simply improve your overall well-being. Discover the power of proper nutrition and unlock your full potential.
+        </p>
+        <a href="/rest-n-rehab/conntact.html" class="consultation-btn">Book a Free Consultation</a>
+      </div>
+
+      <div class="cardio-image">
+        <img src="/rest-n-rehab/assets/images/nutrition.png" alt="Healthy Heart & Lungs">
+      </div>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="cardio-quote">
+      <blockquote>
+ “You’re not just changing how you eat—you’re changing how you live.”
+
+
+
+
+</blockquote>
+    </div>
+
+  </div>
+
+
+<h2 class="card-heading">What we help you with</h2>
+  <div class="grid-container">
+    
+  <div class="card">
+    <div class="title">Metabolic Disorders</div>
+    <div class="icon"><i class="fa-thin fa-laptop-code"></i></div>
+    <div class="content">
+      <p>Dietitians can design meal plans to manage conditions like diabetes or high cholesterol, focusing on balanced macronutrients and specific food choices to regulate blood sugar and lipid levels  
+
+</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Digestive Issues</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>They can recommend dietary adjustments to ease symptoms of IBS, celiac disease, or other digestive disorders, promoting gut health and proper nutrient absorption.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="title">Weight Management</div>
+    <div class="icon"><i class="fa-thin fa-wrench-simple"></i></div>
+    <div class="content">
+      <p>Dietitians create personalized plans for weight loss or gain, considering individual needs and preferences. They focus on sustainable lifestyle changes, portion control, and balanced nutrition.</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">Cancer/HIV</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Nutrition plays a crucial role in managing treatment side effects and boosting the immune system. Dietitians provide tailored plans to optimize nutrient intake and energy levels.
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Pregnancy Nutrition</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>They ensure adequate intake of essential nutrients for fetal development, addressing specific needs during each trimester and postpartum.
+
+</p>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="title">PCOD/PCOS</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Dietitians help manage hormonal imbalances and regulate menstrual cycles through dietary modifications, focusing on low-glycemic index foods and reducing inflammation
+
+</p>
+    </div>
+  </div>
+
+     <div class="card">
+    <div class="title">Diabetes</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>They create meal plans to control blood sugar levels, emphasizing complex carbohydrates, lean protein, and healthy fats. Regular monitoring and adjustments are key.</p>
+    </div>
+  </div>
+
+
+   <div class="card">
+    <div class="title">Blood Pressure</div>
+    <div class="icon"><i class="fa-thin fa-shield-check"></i></div>
+    <div class="content">
+      <p>Dietary interventions, such as the DASH diet, can help lower blood pressure by reducing sodium intake and increasing potassium, calcium, and magnesium.</p>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+
+
+
     </article>
   </main>
+
+
+
 
 
   <!-- 
     - #FOOTER
   -->
+
   <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
       <div class="section footer-top">
@@ -569,16 +1739,7 @@
             <a href="#" class="text footer-link">FAQs</a>
           </li>
         </ul>
-        <div class="footer-list" data-reveal="bottom">
-          <p class="headline-sm footer-list-title">Subscribe</p>
-          <form action="" class="footer-form">
-            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
-            <button type="submit" class="btn has-before title-md">Subscribe</button>
-          </form>
-          <p class="text">
-            Get the latest updates via email. Any time you may unsubscribe.
-          </p>
-        </div>
+       
       </div>
       <div class="footer-bottom">
         <p class="text copyright">
@@ -634,8 +1795,24 @@
   <!-- 
     - ionicon link
   -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const products = document.querySelectorAll(".product");
+    products.forEach(function(product, index) {
+        product.classList.add("animate__animated", "animate__fadeInUp");
+        product.style.animationDelay = (index * 0.2) + 's';
+        product.style.opacity = '1';
+        product.style.visibility = 'visible';
+    });
+});
+
+    new WOW().init();
+</script>
 
 </body>
 
