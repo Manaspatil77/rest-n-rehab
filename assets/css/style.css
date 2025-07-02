@@ -1928,6 +1928,7 @@ padding: 0rem;
 .people-container h1
 {
   text-align:center;
+  font-size: 2rem;
 }
 #submit-button {
   margin: 1rem;
@@ -1944,43 +1945,6 @@ padding: 0rem;
 
 }
 @media (max-width: 480px) {
-/* contact */
-#contact-details {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2.5rem;
-}
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding:0rem;
-  margin: 1rem;
-}
-#contact-details {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1rem;
-}
-#form-details span,
-#form-details h3,
-.people-container h1
-{
-  text-align:center;
-}
-#submit-button {
-  margin: 1rem; 
-}
-
-#contact-form {
-  margin: 0; 
-}
-
-#contact-form form input,
-#contact-form form textarea {
-  margin-bottom: 1rem; 
-}
 
 #cart table {
   margin-top: 2rem;
@@ -2619,3 +2583,58 @@ Product */
 }
 
 
+@media (max-width:468px){
+  #contact-details .details h2 {
+    margin-left: 38px;
+  }
+ 
+      #contact-details .details p{
+       font-size: 1.8rem;
+      }
+
+}
+
+
+/* Tablet Devices (width: 768px and below) */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .contact-form h3 {
+    font-size: 22px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 15px;
+  }
+}
+
+/* Mobile Devices (width: 480px and below) */
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 25px 55px;
+  }
+
+  .contact-form h3 {
+    font-size: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #contact-details .details span {
+    font-size: 1.6rem;
+    color: var(--black);
+    margin-left: 96px;
+}
+}
