@@ -95,6 +95,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+ 
 }
 
 li { list-style: none; }
@@ -1604,7 +1605,7 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   justify-content: space-between;
   padding: 2.5rem; 
-  line-height: 4rem;
+  line-height: 2rem;
   }
   
   #contact-details .details {
@@ -2507,13 +2508,13 @@ Product */
 .section-title {
   font-size: 3.7rem;
   margin-bottom: 10px;
-  color: #dff0ef;
+  color: #13635e;
 }
 
 .section-subtitle {
   font-size: 1.9rem;
   margin-bottom: 50px;
-  color: #e7fdfb;
+  color: #0f4b46;
 }
 
 .team-grid {
@@ -2635,4 +2636,40 @@ Product */
     color: var(--black);
     margin-left: 96px;
 }
+}
+
+
+
+/* Parent grid list */
+.grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual card */
+.listing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  min-height: 320px; /* Ensure minimum height */
+}
+
+/* Optional: make text/content inside cards stretch */
+.listing-card > div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Optional: limit height of text content */
+.card-text {
+  flex-grow: 1;
+  margin-top: 0.5rem;
 }
