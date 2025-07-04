@@ -731,7 +731,7 @@ body.nav-active { overflow: hidden; }
   margin-block-start: 12px;
 }
 
-.contact-item .item-icon { font-size: 4rem; }
+.contact-item .item-icon { font-size: 3rem; }
 
 .contact-link {
   display: inline;
@@ -2532,6 +2532,7 @@ Product */
   max-width: 550px;
   transition: transform 0.3s ease;
   text-align: left;
+      margin-top: 10px;
 }
 
 .team-member:hover {
